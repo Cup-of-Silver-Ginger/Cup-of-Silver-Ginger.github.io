@@ -15,7 +15,11 @@
         height: 50px;
         background-color: white;
       }
-      #index {
+      .all-content
+{
+  padding-top: 50px;
+}
+      .container {
         background: rgba(255, 255, 255, 0.5);
         margin-top: 0;
         padding: 10px;
@@ -24,121 +28,61 @@
         position: fixed;
       }
 
-      #index li {
+      .container li {
         display: inline-block;
         font-size: 22px;
         padding: 0 10px 0 10px;
         margin: 0 auto;
       }
-      #index a {
+      .container a {
         color: black;
       }
-      #index a:hover {
+      .container a:hover {
         color: hotpink;
         font-weight: bold;
       }
-      @media (max-width: 500px) {
-        h1 {
-          font-size: 20px;
-        }
-        #index li {
-          font-size: 16px;
-          padding: 0 10px 0 10px;
-          text-align: center;
-        }
-<<<<<<< HEAD
+
+      .nopadding {
+        padding: 0 !important;
+        margin: 0 !important;
+      }
         @media (max-width: 500px) {
           h1 {
             font-size: 20px;
            }
-          #index li {
+          .container li {
             font-size: 16px;
             padding: 0 10px 0 10px;
           }
-          #index {
+          .container {
             padding: 0;
           }
         }
-      </style>
     </head>
     <body>
-        <header class="sitename">
-          <h1>Cup of Silver Ginger</h1>
-          <ul id='index' class="navbar">
-            <li><a href="#">Romantic</a></li>
-            <li><a href="#">Cheerful</a></li>
-            <li><a href="#">Languid</a></li>
-            <li><a href="#">Serene</a></li>
-            <li><a href="#">Vintage</a></li>
-            <li><a href="#">Abstract</a></li>
-            <li><a href="#">Wild</a></li>
-          </ul>
-        </header>
     <div>
       <div class ="container">
         <div style ="text-align:center">
           <h2>Contact Us>
     </div>
-
-=======
-      }
     </style>
   </head>
   <body>
     <header><h1>Cup of Silver Ginger</h1></header>
-    <ul id="index">
-      <li><a href="#" , style="text-decoration:none">Romantic</a></li>
-      <li><a href="#" , style="text-decoration:none">Cheerful</a></li>
-      <li><a href="#" , style="text-decoration:none">Languid</a></li>
-      <li><a href="#" , style="text-decoration:none">Serene</a></li>
-      <li><a href="#" , style="text-decoration:none">Vintage</a></li>
-      <li><a href="#" , style="text-decoration:none">Abstract</a></li>
-      <li><a href="#" , style="text-decoration:none">Wild</a></li>
-      <li><a href="#" , style="text-decoration:none">Heartfelt</a></li>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+      <ul>
+      <li><a href="#" style="text-decoration:none">Romantic</a></li>
+      <li><a href="#" style="text-decoration:none">Cheerful</a></li>
+      <li><a href="#" style="text-decoration:none">Languid</a></li>
+      <li><a href="#" style="text-decoration:none">Serene</a></li>
+      <li><a href="#" style="text-decoration:none">Vintage</a></li>
+      <li><a href="#" style="text-decoration:none">Abstract</a></li>
+      <li><a href="#" style="text-decoration:none">Wild</a></li>
+      <li><a href="#" style="text-decoration:none">Heartfelt</a></li>
     </ul>
->>>>>>> 72828c9d54f9b5570893f5e5398bc57501e9f393
-
-/*
-.container-fluid img {
-   max-height:200px;
-   max-width: 200px;
-}
-*/
-
-.nopadding {
-  padding: 0 !important;
-  margin: 0 !important;
-}
-        @media (max-width: 500px) {
-          h1 {
-            font-size: 20px;
-           }
-          #index li {
-            font-size: 16px;
-            padding: 0 10px 0 10px;
-          }
-          #index {
-            padding: 0;
-          }
-        }
-
-      </style>
-    </head>
-    <body>
-        <header class="sitename">
-          <h1>Cup of Silver Ginger</h1>
-          <ul id='index' class="navbar">
-            <li><a href="#">Romantic</a></li>
-            <li><a href="#">Cheerful</a></li>
-            <li><a href="#">Languid</a></li>
-            <li><a href="#">Serene</a></li>
-            <li><a href="#">Vintage</a></li>
-            <li><a href="#">Abstract</a></li>
-            <li><a href="#">Wild</a></li>
-            <li><a href="#">Heartfelt</a></li>
-          </ul>
-        </header>
-      <div>
+    </div>
+    </nav>
 
 <!-- Photo Grid -->
 <div class="container-fluid p-0">
@@ -159,6 +103,7 @@
           <img src= "./images/Wild_Image.JPG" alt= "image of a wild flower" style="width:100%">
           <img src= "./images/Heartfelt_Image.JPG" alt= "image of a Heartfelt flower" style="width:100%">
 </div>
+      </div>
       </div>
     </body>
   </html>
