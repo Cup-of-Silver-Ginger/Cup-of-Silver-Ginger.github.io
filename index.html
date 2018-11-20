@@ -2,27 +2,22 @@
 <html>
   <head>
     <title>Silver Ginger</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet" />
-    <link href="css/bootstrap-theme.css" rel="stylesheet" />
-    <meta
-      name="viewport"
-      content="width=device-width,
-    initial-scale=1.0"
-    />
-    <!-- this makes the web page mobile friendly -->
-
     <style>
       header {
         text-align: center;
         height: 50px;
         background-color: white;
       }
-      .all-content {
-        padding-top: 50px;
+      footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+        background-color: white;
+        text-align: center;
       }
-      .container {
+      #index {
         background: rgba(255, 255, 255, 0.5);
         margin-top: 0;
         padding: 10px;
@@ -31,36 +26,41 @@
         position: fixed;
       }
 
-      .container li {
+      #index li {
         display: inline-block;
         font-size: 22px;
         padding: 0 10px 0 10px;
         margin: 0 auto;
       }
-      .container a {
+      #index a {
         color: black;
       }
-      .container a:hover {
+      #index a:hover {
         color: hotpink;
         font-weight: bold;
-      }
-
-      .nopadding {
-        padding: 0 !important;
-        margin: 0 !important;
       }
       @media (max-width: 500px) {
         h1 {
           font-size: 20px;
         }
-        .container li {
+        #index li {
           font-size: 16px;
           padding: 0 10px 0 10px;
-        }
-        .container {
-          padding: 0;
+          text-align: center;
         }
 <<<<<<< HEAD
+        @media (max-width: 500px) {
+          h1 {
+            font-size: 20px;
+           }
+          #index li {
+            font-size: 16px;
+            padding: 0 10px 0 10px;
+          }
+          #index {
+            padding: 0;
+          }
+        }
       </style>
     </head>
     <body>
@@ -76,10 +76,8 @@
             <li><a href="#">Wild</a></li>
           </ul>
         </header>
-    <div>
-      <div class ="container">
-        <div style ="text-align:center">
-        <h1>Contact</h1>
+        <footer class="sitename">
+          <h1>Contact</h1>
 
           <!--
           <a href="https://icons8.com">
@@ -88,131 +86,23 @@
     </div>
 
 =======
-=======
-      }
-      pre {
-        border: 0;
-      }
-      .container {
-        padding-bottom: 60px;
->>>>>>> a7601726a0d869077130cc321a524b1bf9d07954
       }
     </style>
   </head>
   <body>
     <header><h1>Cup of Silver Ginger</h1></header>
-    <nav class="navbar navbar-default navbar-static-top">
-      <div class="container">
-        <ul>
-          <li><a href="#" style="text-decoration:none">Romantic</a></li>
-          <li><a href="#" style="text-decoration:none">Cheerful</a></li>
-          <li><a href="#" style="text-decoration:none">Languid</a></li>
-          <li><a href="#" style="text-decoration:none">Serene</a></li>
-          <li><a href="#" style="text-decoration:none">Vintage</a></li>
-          <li><a href="#" style="text-decoration:none">Abstract</a></li>
-          <li><a href="#" style="text-decoration:none">Wild</a></li>
-          <li><a href="#" style="text-decoration:none">Heartfelt</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- Photo Grid -->
-    <div class="container-fluid p-0">
-      <div class="row no-gutters popup-gallery">
-        <div class="col-lg-3 col-sm-3 nopadding">
-          <img
-            src="./images/Romantic_Image.JPG"
-            alt="image of a romantic flower"
-            style="width:100%"
-          />
-          <img
-            src="./images/Cheerful_Image.JPG"
-            alt="image of a cheerful flower"
-            style="width:100%"
-          />
-        </div>
-        <div class="col-lg-3 col-sm-3 nopadding">
-          <img
-            src="./images/Languid_Image.JPG"
-            alt="image of a languide flower"
-            style="width:100%"
-          />
-          <img
-            src="./images/Serene_Image.JPG"
-            alt="image of a serene flower"
-            style="width:100%"
-          />
-        </div>
-        <div class="col-lg-3 col-sm-3 nopadding">
-          <img
-            src="./images/Vintage_Image.JPG"
-            alt="image of a vintage flower"
-            style="width:100%"
-          />
-          <img
-            src="./images/Abstract_Image.JPG"
-            alt="image of a abstract flower"
-            style="width:100%"
-          />
-        </div>
-        <div class="col-lg-3 col-sm-3 nopadding">
-          <img
-            src="./images/Wild_Image.JPG"
-            alt="image of a wild flower"
-            style="width:100%"
-          />
-          <img
-            src="./images/Heartfelt_Image.JPG"
-            alt="image of a Heartfelt flower"
-            style="width:100%"
-          />
-        </div>
-      </div>
-    </div>
+    <ul id="index">
+      <li><a href="#" , style="text-decoration:none">Romantic</a></li>
+      <li><a href="#" , style="text-decoration:none">Cheerful</a></li>
+      <li><a href="#" , style="text-decoration:none">Languid</a></li>
+      <li><a href="#" , style="text-decoration:none">Serene</a></li>
+      <li><a href="#" , style="text-decoration:none">Vintage</a></li>
+      <li><a href="#" , style="text-decoration:none">Abstract</a></li>
+      <li><a href="#" , style="text-decoration:none">Wild</a></li>
+      <li><a href="#" , style="text-decoration:none">Heartfelt</a></li>
+    </ul>
+>>>>>>> 72828c9d54f9b5570893f5e5398bc57501e9f393
 
 
-    <!-- -Di art part- -->
-
-    <div style="background-color:lightpink">
-      <h1>Artists in love with flowers</h1>
-      <pre style="background-color:lightpink">
- Over the centuries,artists have captured the rich beauty and symbolism of flowers,
-           tracing the changing meanings of them and exploring formalistic qualities.
-         </pre>
-
-      <div class="col-sm-3">
-        <h2>Symbolism</h2>
-        <p>Secret Messages of Flowers in the Victoria Era</p>
-        <button class="Explore Related Exhibitions">
-          Explore Related Exhibitions
-        </button>
-      </div>
-
-      <div class="col-sm-3">
-        <div class="column">
-          <h2>Impressionism</h2>
-          <p>The fleeting beauty of changing color and light</p>
-          <button class="Explore Related Exhibitions">
-            Current Van Gogh Exhibitions
-          </button>
-        </div>
-      </div>
-
-      <div class="col-sm-3">
-        <h2>Modernism</h2>
-        <p>Georgia O Keeffe and flowers as modernist form</p>
-        <button class="Explore Related Exhibitions">
-          Current Georgia Exhibitions
-        </button>
-      </div>
-
-      <div class="col-sm-3">
-        <h2>Pop</h2>
-        <p>Andy Warhol, Alex Katz and Murakami's technical pop</p>
-        <button class="Explore Related Exhibitions">
-          Current Alex Katz Exhibitions
-        </button>
-      </div>
-    </div>
   </body>
 </html>
