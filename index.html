@@ -1,62 +1,66 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <title>
-        Silver Ginger
-      </title>
-      <style>
-        header {
-          text-align: center;
-          height: 200px;
-          background-color: red;
-        }
-        .sitename{
-          position:fixed;
-        }
-        #index {
-          background: rgba(0, 0, 0, 0);
-          padding: 10px;
-          margin:0;
+<html>
+  <head>
+    <title>Silver Ginger</title>
+    <style>
+      header {
+        text-align: center;
+        height: 50px;
+        background-color: white;
+      }
+      #index {
+        background: rgba(255, 255, 255, 0.5);
+        margin-top: 0;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        position: fixed;
+      }
+
+      #index li {
+        display: inline-block;
+        font-size: 22px;
+        padding: 0 10px 0 10px;
+        margin: 0 auto;
+      }
+      #index a {
+        color: black;
+      }
+      #index a:hover {
+        color: hotpink;
+        font-weight: bold;
+      }
+
+      .content {
+        height: 800px;
+        background-color: black;
+      }
+
+      @media (max-width: 500px) {
+        h1 {
+          font-size: 20px;
         }
         #index li {
-          display:inline;
-          padding: 0 20px 0 20px;
-          font-size: 22px;
-          margin:0;
+          font-size: 16px;
+          padding: 0 10px 0 10px;
+          text-align: center;
         }
-        #index a {
-          color: black;
-        }
+      }
+    </style>
+  </head>
+  <body>
+    <header><h1>Cup of Silver Ginger</h1></header>
+    <ul id="index">
+      <li><a href="#" , style="text-decoration:none">Romantic</a></li>
+      <li><a href="#" , style="text-decoration:none">Cheerful</a></li>
+      <li><a href="#" , style="text-decoration:none">Languid</a></li>
+      <li><a href="#" , style="text-decoration:none">Serene</a></li>
+      <li><a href="#" , style="text-decoration:none">Vintage</a></li>
+      <li><a href="#" , style="text-decoration:none">Abstract</a></li>
+      <li><a href="#" , style="text-decoration:none">Wild</a></li>
+      <li><a href="#" , style="text-decoration:none">Heartfelt</a></li>
+    </ul>
 
-        @media (max-width: 500px) {
-          h1 {
-            font-size: 20px;
-           }
-          #index li {
-            font-size: 16px;
-            padding: 0 10px 0 10px;
-          }
-          #index {
-            padding: 0;
-          }
-        }
-      </style>
-    </head>
-    <body>
-        <header class="sitename">
-          <h1>Cup of Silver Ginger</h1>
-          <ul id='index' class="navbar">
-            <li><a href="#">Romantic</a></li>
-            <li><a href="#">Cheerful</a></li>
-            <li><a href="#">Languid</a></li>
-            <li><a href="#">Serene</a></li>
-            <li><a href="#">Vintage</a></li>
-            <li><a href="#">Abstract</a></li>
-            <li><a href="#">Wild</a></li>
-          </ul>
-        </header>
-      <div>
-
-      </div>
-    </body>
-  </html>
+    <div class="content"></div>
+  </body>
+</html>
