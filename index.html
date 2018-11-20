@@ -4,6 +4,13 @@
       <title>
         Silver Ginger
       </title>
+
+      <!-- Bootstrap core CSS -->
+      <link href='css/bootstrap.css' rel='stylesheet'>
+      <link href='css/bootstrap-theme.css' rel='stylesheet'>
+      <meta name="viewport" content="width=device-width,
+      initial-scale=1.0"> <!--this makes the web page mobile friendly-->
+
       <style>
         header {
           text-align: center;
@@ -28,6 +35,17 @@
           color: black;
         }
 
+/*
+.container-fluid img {
+   max-height:200px;
+   max-width: 200px;
+}
+*/
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
         @media (max-width: 500px) {
           h1 {
             font-size: 20px;
@@ -40,6 +58,7 @@
             padding: 0;
           }
         }
+
       </style>
     </head>
     <body>
@@ -53,10 +72,30 @@
             <li><a href="#">Vintage</a></li>
             <li><a href="#">Abstract</a></li>
             <li><a href="#">Wild</a></li>
+            <li><a href="#">Heartfelt</a></li>
           </ul>
         </header>
       <div>
 
+<!-- Photo Grid -->
+<div class="container-fluid p-0">
+  <div class="row no-gutters popup-gallery">
+  <div class= "col-lg-3 col-sm-3 nopadding">
+    <img src= "./images/Romantic_Image.JPG" alt= "image of a romantic flower" style="width:100%">
+    <img src= "./images/Cheerful_Image.JPG" alt= "image of a cheerful flower" style="width:100%">
+  </div>
+    <div class= "col-lg-3 col-sm-3 nopadding">
+      <img src= "./images/Languid_Image.JPG" alt= "image of a languide flower" style="width:100%">
+      <img src= "./images/Serene_Image.JPG" alt= "image of a serene flower" style="width:100%">
+      </div>
+      <div class= "col-lg-3 col-sm-3 nopadding">
+        <img src= "./images/Vintage_Image.JPG" alt= "image of a vintage flower" style="width:100%">
+        <img src= "./images/Abstract_Image.JPG" alt= "image of a abstract flower" style="width:100%">
+        </div>
+        <div class= "col-lg-3 col-sm-3 nopadding">
+          <img src= "./images/Wild_Image.JPG" alt= "image of a wild flower" style="width:100%">
+          <img src= "./images/Heartfelt_Image.JPG" alt= "image of a Heartfelt flower" style="width:100%">
+</div>
       </div>
     </body>
   </html>
