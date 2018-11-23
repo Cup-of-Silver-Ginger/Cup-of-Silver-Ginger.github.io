@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- link CSS sheet -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Silver Ginger</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet" />
-    <link href="css/bootstrap-theme.css" rel="stylesheet" />
+    <!-- Bootstrap core CSS -->>
     <meta
       name="viewport"
       content="width=device-width,
@@ -13,100 +17,6 @@
     />
     <!-- this makes the web page mobile friendly -->
 
-    <style>
-      header {
-        text-align: center;
-        height: 50px;
-        background-color: white;
-      }
-      .all_content {
-        padding-top: 50px;
-      }
-      .container {
-        background: rgba(255, 255, 255, 0.5);
-        margin-top: 0;
-        padding: 10px;
-        text-align: center;
-        width: 100%;
-        position: fixed;
-      }
-      .container li {
-        display: inline-block;
-        font-size: 22px;
-        padding: 0 10px 0 10px;
-        margin: 0 auto;
-      }
-      .container a {
-        color: black;
-      }
-      .container a:hover {
-        color: rgb(191, 40, 71);
-        font-weight: bold;
-      }
-      .nopadding {
-        padding: 0 !important;
-        margin: 0 !important;
-         line-height: 0;
-      }
-
-
-.container-fluid {
- width: cover;
- overflow: hidden;
-}
-
-.flower-mood img {
-height: auto;
-width: 350px;
-background-size: 100%;
-position:relative;
-}
-
-.flower-mood img:hover{
-  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(100%); /* FF 35+ */
-}
-
-
-.flower-mood {
-  position:relative;
-}
-.flower-mood .mood {
-  opacity: 0;
-  position: absolute;
-  top: auto;
-  left: 0; width: 100%; text-align: center
-}
-
-.flower-mood:hover .mood {
-  opacity: 1;
-  font-weight: bold;
-  color: rgb(191, 40, 71);
-	font-size: 30px;
-  z-index: 1;
-  position: absolute;
-  top: 50%;
-  left: 0; width: 100%; text-align: center
-}
-      @media (max-width: 500px) {
-        h1 {
-          font-size: 20px;
-        }
-        .container li {
-          font-size: 16px;
-          padding: 0 10px 0 10px;
-        }
-        .container {
-          padding: 0;
-        }
-      }
-      pre {
-        border: 0;
-      }
-      .container {
-        padding-bottom: 60px;
-      }
-    </style>
   </head>
   <body>
     <header><h1>Cup of Silver Ginger</h1></header>
@@ -216,47 +126,74 @@ position:relative;
 
 
     <!-- -Di art part- -->
+    <body>
+      <div class="container-fluid full">
+        <div class="row">
+          <h1>Flower as History</h1>
+          <p>
+            Over the centuries,artists have captured the rich beauty and symbolism
+            of flowers, tracing the changing meanings of them and exploring
+            formalistic qualities.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="box1 item">
+            <h2 class="title">Egyptian Mythology</h2>
+            <p> Nefertem,lotus flower at the creation of the world</p>
+            <div class="overlay"></div>
+            <div class="button"><a href="https://www.metmuseum.org/toah/hd/nstl/hd_nstl.htm"target="_blank">Exhibitions </a></div>
+          </div>
+        </div>
 
-    <div style="background-color:lightpink">
-      <h1>Artists in love with flowers</h1>
-      <pre style="background-color:lightpink">
- Over the centuries,artists have captured the rich beauty and symbolism of flowers,
-           tracing the changing meanings of them and exploring formalistic qualities.
-         </pre>
+          <div class="col-sm-4">
+            <div class="box2 item">
+            <h2 class="title">Dutch Still Life</h2>
+            <p>The Golden Age and the transient nature of life</p>
+            <div class="overlay"></div>
+            <div class="button"><a href="https://www.metmuseum.org/toah/hd/nstl/hd_nstl.htm">Exhibitions </a></div>
+          </div>
+          </div>
 
-      <div class="col-sm-3">
-        <h2>Symbolism</h2>
-        <p>Secret Messages of Flowers in the Victoria Era</p>
-        <button class="Explore Related Exhibitions">
-          Explore Related Exhibitions
-        </button>
-      </div>
+          <div class="col-sm-4">
+            <div class="box3 item">
+            <h2 class="title">Symbolism</h2>
+            <p>
+              Secret Messages of Flowers in the Victorian Era
+            </p>
+            <div class="overlay"></div>
+            <div class="button"><a href="#">Exhibitions </a></div>
+          </div>
+          </div>
+        </div>
 
-      <div class="col-sm-3">
-        <div class="column">
-          <h2>Impressionism</h2>
-          <p>The fleeting beauty of changing color and light</p>
-          <button class="Explore Related Exhibitions">
-            Current Van Gogh Exhibitions
-          </button>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="box4 item">
+            <h2 class="title">Impressionism</h2>
+            <p>The fleeting beauty of changing color and light</p>
+            <div class="overlay"></div>
+            <div class="button"><a href="#">Exhibitions </a></div>
+          </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="box5 item">
+            <h2 class="title">Modernism</h2>
+            <p>Radical events of close-up view and abstraction</p>
+            <div class="overlay"></div>
+            <div class="button"><a href="#">Exhibitions </a></div>
+          </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="box6 item">
+            <h2 class="title">Pop</h2>
+            <p>Andy Warhol, Alex Katz, and Murakami</p>
+            <div class="overlay"></div>
+            <div class="button"><a href="#">Exhibitions </a></div>
+          </div>
         </div>
       </div>
-
-      <div class="col-sm-3">
-        <h2>Modernism</h2>
-        <p>Georgia O Keeffe and flowers as modernist form</p>
-        <button class="Explore Related Exhibitions">
-          Current Georgia Exhibitions
-        </button>
-      </div>
-
-      <div class="col-sm-3">
-        <h2>Pop</h2>
-        <p>Andy Warhol, Alex Katz and Murakami's technical pop</p>
-        <button class="Explore Related Exhibitions">
-          Current Alex Katz Exhibitions
-        </button>
-      </div>
-    </div>
   </body>
 </html>
