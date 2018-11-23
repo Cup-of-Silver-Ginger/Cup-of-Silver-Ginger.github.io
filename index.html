@@ -1,108 +1,199 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- link CSS sheet -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Silver Ginger</title>
-    <style>
-      header {
-        text-align: center;
-        height: 50px;
-        background-color: white;
-      }
-      footer {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding: 1rem;
-        background-color: white;
-        text-align: center;
-      }
-      #index {
-        background: rgba(255, 255, 255, 0.5);
-        margin-top: 0;
-        padding: 10px;
-        text-align: center;
-        width: 100%;
-        position: fixed;
-      }
 
-      #index li {
-        display: inline-block;
-        font-size: 22px;
-        padding: 0 10px 0 10px;
-        margin: 0 auto;
-      }
-      #index a {
-        color: black;
-      }
-      #index a:hover {
-        color: hotpink;
-        font-weight: bold;
-      }
-      @media (max-width: 500px) {
-        h1 {
-          font-size: 20px;
-        }
-        #index li {
-          font-size: 16px;
-          padding: 0 10px 0 10px;
-          text-align: center;
-        }
-<<<<<<< HEAD
-        @media (max-width: 500px) {
-          h1 {
-            font-size: 20px;
-           }
-          #index li {
-            font-size: 16px;
-            padding: 0 10px 0 10px;
-          }
-          #index {
-            padding: 0;
-          }
-        }
-      </style>
-    </head>
-    <body>
-        <header class="sitename">
-          <h1>Cup of Silver Ginger</h1>
-          <ul id='index' class="navbar">
-            <li><a href="#">Romantic</a></li>
-            <li><a href="#">Cheerful</a></li>
-            <li><a href="#">Languid</a></li>
-            <li><a href="#">Serene</a></li>
-            <li><a href="#">Vintage</a></li>
-            <li><a href="#">Abstract</a></li>
-            <li><a href="#">Wild</a></li>
-          </ul>
-        </header>
-        <footer class="sitename">
-          <h1>Contact</h1>
+    <!-- Bootstrap core CSS -->>
+    <meta
+      name="viewport"
+      content="width=device-width,
+    initial-scale=1.0"
+    />
+    <!-- this makes the web page mobile friendly -->
 
-          <!--
-          <a href="https://icons8.com">
-          <img src="C:\Users\archie\Desktop\Code First\Cup-of-Silver-Ginger.github.io-master\images"
-          title="email"  width="48">
-    </div>
-
-=======
-      }
-    </style>
   </head>
   <body>
     <header><h1>Cup of Silver Ginger</h1></header>
-    <ul id="index">
-      <li><a href="#" , style="text-decoration:none">Romantic</a></li>
-      <li><a href="#" , style="text-decoration:none">Cheerful</a></li>
-      <li><a href="#" , style="text-decoration:none">Languid</a></li>
-      <li><a href="#" , style="text-decoration:none">Serene</a></li>
-      <li><a href="#" , style="text-decoration:none">Vintage</a></li>
-      <li><a href="#" , style="text-decoration:none">Abstract</a></li>
-      <li><a href="#" , style="text-decoration:none">Wild</a></li>
-      <li><a href="#" , style="text-decoration:none">Heartfelt</a></li>
-    </ul>
->>>>>>> 72828c9d54f9b5570893f5e5398bc57501e9f393
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <ul>
+          <li><a href="#" style="text-decoration:none">Festive</a></li>
+          <li><a href="#" style="text-decoration:none">Pure</a></li>
+          <li><a href="#" style="text-decoration:none">Vintage</a></li>
+          <li><a href="#" style="text-decoration:none">Languid</a></li>
+          <li><a href="#" style="text-decoration:none">Romantic</a></li>
+          <li><a href="#" style="text-decoration:none">Heartfelt</a></li>
+          <li><a href="#" style="text-decoration:none">Abstract</a></li>
+          <li><a href="#" style="text-decoration:none">Wild</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Photo Grid -->
+    <div class = "all_content">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters popup-gallery">
+        <div class="col-lg-3 col-sm-3 nopadding">
+          <div class="flower-mood">
+            <div class="mood">Festive</div>
+            <img
+            src="./images/Festive_Image.PNG"
+            alt="image of a Festive flower"
+            style="width:100%"
+            />
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-3 nopadding">
+          <div class="flower-mood">
+            <div class="mood">Pure</div>
+            <img
+            src="./images/Pure_Image.PNG"
+            alt="image of a Pure flower"
+            style="width:100%"
+            />
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-3 nopadding">
+          <div class="flower-mood">
+            <div class="mood">Vintage</div>
+            <img
+            src="./images/Vintage_Image.PNG"
+            alt="image of a vintage flower"
+            style="width:100%"
+            />
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-3 nopadding">
+          <div class="flower-mood">
+            <div class="mood">Languid</div>
+            <img
+            src="./images/Languid_Image.PNG"
+            alt="image of a Languid flower"
+            style="width:100%"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row no-gutters popup-gallery">
+        <div class="col-lg-3 col-sm-3 nopadding">
+          <div class="flower-mood">
+            <div class="mood">Romantic</div>
+            <img
+            src="./images/Romantic_Image.PNG"
+            alt="image of a Romantic flower"
+            style="width:100%"
+            />
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-3 nopadding">
+          <div class="flower-mood">
+            <div class="mood">Heartfelt</div>
+            <img
+            src="./images/Heartfelt_Image.PNG"
+            alt="image of a Heartfelt flower"
+            style="width:100%"
+            />
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-3 nopadding">
+          <div class="flower-mood">
+            <div class="mood">Abstract</div>
+            <img
+            src="./images/Abstract_Image.PNG"
+            alt="image of an abstract flower"
+            style="width:100%"
+            />
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-3 nopadding">
+          <div class="flower-mood">
+            <div class="mood">Wild</div>
+            <img
+            src="./images/Wild_Image.PNG"
+            alt="image of a Wild flower"
+            style="width:100%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
 
 
+    <!-- -Di art part- -->
+    <body>
+      <div class="container-fluid full">
+        <div class="row">
+          <h1>Flower as History</h1>
+          <p>
+            Over the centuries,artists have captured the rich beauty and symbolism
+            of flowers, tracing the changing meanings of them and exploring
+            formalistic qualities.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="box1 item">
+            <h2 class="title">Egyptian Mythology</h2>
+            <p> Nefertem,lotus flower at the creation of the world</p>
+            <div class="overlay"></div>
+            <div class="button"><a href="https://www.metmuseum.org/toah/hd/nstl/hd_nstl.htm"target="_blank">Exhibitions </a></div>
+          </div>
+        </div>
+
+          <div class="col-sm-4">
+            <div class="box2 item">
+            <h2 class="title">Dutch Still Life</h2>
+            <p>The Golden Age and the transient nature of life</p>
+            <div class="overlay"></div>
+            <div class="button"><a href="https://www.metmuseum.org/toah/hd/nstl/hd_nstl.htm">Exhibitions </a></div>
+          </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="box3 item">
+            <h2 class="title">Symbolism</h2>
+            <p>
+              Secret Messages of Flowers in the Victorian Era
+            </p>
+            <div class="overlay"></div>
+            <div class="button"><a href="#">Exhibitions </a></div>
+          </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="box4 item">
+            <h2 class="title">Impressionism</h2>
+            <p>The fleeting beauty of changing color and light</p>
+            <div class="overlay"></div>
+            <div class="button"><a href="#">Exhibitions </a></div>
+          </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="box5 item">
+            <h2 class="title">Modernism</h2>
+            <p>Radical events of close-up view and abstraction</p>
+            <div class="overlay"></div>
+            <div class="button"><a href="#">Exhibitions </a></div>
+          </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="box6 item">
+            <h2 class="title">Pop</h2>
+            <p>Andy Warhol, Alex Katz, and Murakami</p>
+            <div class="overlay"></div>
+            <div class="button"><a href="#">Exhibitions </a></div>
+          </div>
+        </div>
+      </div>
   </body>
 </html>
