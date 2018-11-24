@@ -1,0 +1,60 @@
+#slideshow {
+  position: relative;
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#slideshow div div {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.image1 {
+  background-image: url("./images/landing1.png");
+}
+
+.image2 {
+  background-image: url("./images/landing2.png");
+}
+
+.image3 {
+  background-image: url("./images/landing3.png");
+}
+
+.anchor {
+  position: relative;
+}
+
+.masterhead {
+  position: absolute;
+  top: 50vh;
+  left:45vw;
+  z-index: 1;
+}
+
+.masterhead img {
+  position: absolute;
+  left: -237px;
+  top: -60px;
+  height: 80px;
+}
+
+.masterhead nav {
+  position: absolute;
+  left: -120px;
+  top: 40px;
+  height: 80px;
+  width: 320px;
+}
+
+nav li {
+  float: left;
+  width: 80px;
+  text-align: center;
+}
