@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Silver Ginger</title>
+  <style>
+    body {
+  font-family: 'Noto Sans'; <!--change to whatever-->
+	margin:0;
+	width:100%;
+  background:#ffffff;
+}
+header {
+	width:100%;
+	background:#ffffff;
+	height:60px;
+}
+h1{
+  text-align: center;
+  color: black;
+  font-size: 36px;
+  padding:10px;
+}
+p {
+  font-size: 24px;
+}
+h2 {
+  font-size: 30px;
+  color:#696969;
+}
+.hamburger{
+  background:none;
+  position:absolute;
+  top:8px;
+  right:10px;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#696969;
+  border:0;
+  font-size:32px;
+  cursor:pointer;
+  outline:none;
+
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:8px;
+  right:10px;
+  padding:7px 15px 0px 15px;
+  color:#696969;
+  border:0;
+  font-size:60px;
+  line-height:65px;
+  cursor:pointer;
+  outline:none;
+
+}
+.menu{font-size:20px; background: rgba(255, 229, 204, 0.2);  position:absolute; right:10px; width: 250px; text-align: center}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#DCDCDC 1px solid;}
+.menu li:hover{display: block; background: rgba(255, 204, 204, 0.5); padding:15px 0 15px 0; border-bottom:#DCDCDC 1px solid;}
+.menu a{text-decoration:none; color:#000000;}
+.menu a:hover
+  {text-decoration:none; color:#DB7093;
+  }
+
+.mainpicture{
+  float: left;
+  margin: 20px;
+}
+.featured{
+  height: 600px;
+  background-color: #FFFAF0;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+.others {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+}
+.column {
+  float: left;
+  width: 30%;
+  padding:15px;
+  margin-left: 0;
+}
+
+.row{
+  margin: 120px;
+}
+header{display:inline-block; font-size:12px;}
+span{padding-left:20px;}
+a{color:#336699;}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+    float: center;<!--still not centered!-->
+  }
+}
+</style>
+<script src="./js/jquery-3.3.1.min.js"></script>
+  </head>
+<body>
+<header>
+<button class="hamburger">&#9776;</button>
+  <button class="cross">&#735;</button>
+</header>
+
+<div class="menu">
+  <ul>
+    <a href="#"><li>Home</li></a>
+    <a href="#"><li>Romantic</li></a>
+    <a href="#"><li>Cheerful</li></a>
+    <a href="#"><li>Languid</li></a>
+    <a href="#"><li>Serene</li></a>
+    <a href="#"><li>Vintage</li></a>
+    <a href="#"><li>Abstract</li></a>
+    <a href="#"><li>Wild</li></a>
+    <a href="#"><li>Heartfelt</li></a>
+    <a href="#"><li>Flower as History</li></a>
+    <a href="#"><li>About</li></a>
+    <a href="#"><li>Contact</li></a>
+  </ul>
+</div>
+<h1>PAGE TITLE</h1>
+<div class= "featured">
+  <p>
+<img class="mainpicture" src="./images/Cheerful_Image.jpg" alt:"x" style="width:30%"/>
+short paragraph/sentence about the mood
+</p>
+<h2>Featured florist: NAME_OF_FLORIST</h2>
+<p>
+Here some info about the florist
+  <a href="#"><li>Link to the florist</a>
+</p>
+</div>
+<div class= "others">
+  <h3> Should we have a subtitle here?</h3>
+  <div class="row">
+    <div class="column">
+      <img src="./images/serene_Image.jpg" alt="x" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="./images/Vintage_Image.jpg" alt="x" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="./images/Heartfelt_Image.jpg" alt="x" style="width:100%">
+    </div>
+  </div>
+</div>
+<script>
+$('.hamburger').on('click', function(e) {
+e.preventDefault();
+$('.menu').toggleClass('slide-down');
+});
+</script>
+</body>
+</html>

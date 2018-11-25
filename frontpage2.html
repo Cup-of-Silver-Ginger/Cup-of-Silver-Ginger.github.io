@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- link bootstrap sheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <title>Silver Ginger Front Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- this makes the web page mobile friendly -->
+<script>
+function run(interval, frames) {
+    var int = 1;
+
+    function func() {
+        document.body.id = "b"+int;
+        int++;
+        if(int === frames) { int = 1; }
+    }
+
+    var swap = window.setInterval(func, interval);
+}
+
+run(1800, 3); //milliseconds, frames
+</script>
+<style>
+body, html {
+    height: 100%;
+}
+
+
+.name {
+  position:absolute;
+  font-size: 35px;
+  top: 50%;
+  left: 0; width: 100%; text-align: center;
+}
+
+.menu li {
+  display: inline;
+  font-size: 22px;
+  padding: 0 30px 0 10px;
+  margin: 0 auto;
+  position:absolute;
+  top: 60%;
+  left: 0; width: 100%; text-align: center;
+}
+
+#b1 {
+    /* The image used */
+    background-image: url("./images/Romantic_Image.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+#b2 {
+    /* The image used */
+    background-image: url("./images/Heartfelt_Image.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+</style>
+  </head>
+<body>
+<div id="b1 b2"></div>
+<h1 class="name">Cup of Silver Ginger</h1>
+  <h2 class="menu">
+      <ul class="menu-content">
+        <li><a href="#Flower Moods">Flower Moods</a>
+        </li>
+        <li><a href="#Flower & Art History">Flower & Art History</a>
+        </li>
+        <li><a href="#Contact Us">Contact Us</a>
+      </ul>
+  </div>
+</body>
