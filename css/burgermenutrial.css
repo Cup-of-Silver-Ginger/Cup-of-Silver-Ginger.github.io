@@ -1,0 +1,113 @@
+
+header{
+	width:100%;
+	background:#ffffff;
+}
+h1{
+  padding: 5px 0 30px 0;
+  color: #Bf1d28;
+}
+.hamburger{
+	background:none;
+  position:absolute;
+  top:8px;
+  right:10px;
+  line-height:45px;
+  padding:15px 15px 0px 15px;
+  color:#696969;
+  border:0;
+  font-size:32px;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.hamburger:hover{
+  background:none;
+  position:absolute;
+  top:8px;
+  right:10px;
+  line-height:45px;
+  padding:15px 15px 0px 15px;
+  color:#Bf1d28;
+  border:0;
+  font-size:32px;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+	background:none;
+  position:absolute;
+  top:8px;
+  right:10px;
+  padding:15px 15px 0px 15px;
+  color:#696969;
+  border:0;
+  font-size:60px;
+  line-height:65px;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross:hover{
+  color: #Bf1d28;
+  background:none;
+  position:absolute;
+  top:8px;
+  right:10px;
+  padding:15px 15px 0px 15px;
+  border:0;
+  font-size:60px;
+  line-height:65px;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{
+  font-size:20px;
+  background: rgba(255, 255, 255, 0.2);
+  position:absolute;
+  right:10px;
+  width: 250px;
+  text-align: center;
+  font-weight: bold;
+  z-index:1000000000000000000;
+  }
+.menu ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-image: none;
+  }
+.menu li{
+  display: block;
+  padding:15px 0 15px 0;
+
+  }
+.menu li:hover{
+  display: block;
+  background: rgba(255, 255, 255, 0.7);
+  padding:15px 0 15px 0;
+
+  }
+.menu a{
+  text-decoration:none;
+  color:#000000;
+  }
+.menu a:hover{
+  text-decoration:none;
+  color: #Bf1d28;
+  }
+
+@media (max-width: 500px) {
+  h1{
+    font-size: 20px;
+  }
+  .menu{
+    font-size:20px;
+    background: rgba(255, 255, 255, 1);
+    position:absolute;
+    width: 100%;
+    text-align: center
+    }
+}
