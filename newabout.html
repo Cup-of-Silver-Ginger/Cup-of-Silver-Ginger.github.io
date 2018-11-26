@@ -17,31 +17,65 @@
         position: fixed;
         top: 0;
         width: 100%;
+        background-color: rgb(40, 45, 50);
+        z-index: 10000000000;
+        color:#cd9967;
+        height: 130px;
+      }
+      h1{
+        padding: 0;
+      }
+      .navabout li{
+        display: inline-block;
+        padding-right: 40px;
+        padding-left: 40px;
+      }
+      .navabout li a {
+        text-decoration:none;
+        color: #b0733b;
+      }
+      .navabout li a:hover{
+        color: #cd9967;
+      }
+      .logo{
+        padding-top: 30px;
+      }
+      body {
+        background-color: black;
+        background-image: url("./images/landing3.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        z-index: 0;
       }
       #fixedhd{
-        z-index: 0;
+        z-index: 1;
       }
       .menu{
         position: fixed;
       }
-      ]
-      h2 {
-        font-size: 32px;
+
+      p {
+        padding: 30px 250px 0 250px;
+        font-size: 18px;
       }
       .about {
         text-align: center;
-        padding: 20px 0;
-        margin-top:70px;
+        padding: 70px 0;
+        margin-top:90px;
+        color: #cd9967;
+        z-index: 0;
       }
       .project{
-        background-color: #F3DD65;
+        background-color: #252525;
+        opacity: 0.8;
         width: 100%;
         padding: 20px 0;
         margin: 0;
         height:400px;
+        z-index: 0;
       }
       .team {
-        background-color:#EDC33B;
+        background-color:#282d32;
         width: 100%;
         padding:20px 0;
         margin: 0;
@@ -56,14 +90,16 @@
 }
       .contact {
         right: 0;
-        bottom: 50px;
         left: 0;
         padding-top: 40px;
-        background-color: white;
         text-align: center;
-        color: #Bf1d28;
+        color: #cd9967;
         position: relative;
         z-index: 10000000;
+        background-image: url("./images/anna.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+          }
       }
 
       * {box-sizing: border-box;}
@@ -71,7 +107,6 @@
       input[type=text], select, textarea {
           width: 70%;
           padding: 12px;
-          border: none;
           border-radius: 10px;
           box-sizing: border-box;
           margin-top: 6px;
@@ -83,6 +118,7 @@
             padding: 12px;
             border: none;
             border-radius: 10px;
+            border: none;
             box-sizing: border-box;
             margin-top: 6px;
             margin-bottom: 16px;
@@ -90,20 +126,20 @@
           }
 
         ::placeholder {
-      color: #Bf1d28;
+      color: #cd9967;
       opacity: 1;
   }
 
   :-ms-input-placeholder {
-      color: #Bf1d28;
+      color: #cd9967;
   }
 
   ::-ms-input-placeholder {
-      color: #Bf1d28;
+      color: #cd9967;
   }
 
       input[type=submit] {
-          background-color: #Bf1d28;
+          background-color: rgba(205,153,103,0.8);
           color: white;
           padding: 12px 20px;
           border: none;
@@ -113,12 +149,12 @@
       }
 
       input[type=submit]:hover {
-          background-color: #EFA3C3;
+          background-color: rgba(205,153,103,1);
       }
 
       .container {
           border-radius: 40px;
-          background-color: #f2f2f2;
+          background-color: none;
           padding: 20px;
           width: 50%;
           margin: 10px auto;
@@ -135,49 +171,52 @@
       }
       .lastp a{
         text-decoration:none;
-        color: #Bf1d28;
+        color: #cd9967;
       }
       .lastp a:hover {
-        color: #EFA3C3;
+        color: #b0733b;
         text-decoration:none;
       }
       li {
        line-height: 50px;
 
      }
+     .navabout li {
+       line-height: normal;
+     }
      h4{
-       color: #Bf1d28;
+       color:#cd9967;
        font-size: 36px;
      }
      h5{
        font-size: 20px;
      }
-     p{
-       font-size: 24px;
+     h6 {
+       font-size: 28px;
      }
 
      .fbicon {
-       background-image: url("./images/facebooklogored.png");
+       background-image: url("./images/facebooklogo1.png");
        background-repeat: no-repeat;
      }
      .fbicon:hover {
-       background-image: url("./images/facebookpink.png");
+       background-image: url("./images/facebooklogo2.png");
        background-repeat: no-repeat;
      }
      .twicon {
-     background-image: url("./images/twitterlogored.png");
+     background-image: url("./images/twitterlogo1.png");
      background-repeat: no-repeat;
      }
      .twicon:hover {
-       background-image: url("./images/twitterpink.png");
+       background-image: url("./images/twitterlogo2.png");
        background-repeat: no-repeat;
      }
      .insticon{
-       background-image: url("./images/instalogored.png");
+       background-image: url("./images/instalogo1.png");
        background-repeat: no-repeat;
      }
      .insticon:hover{
-       background-image: url("./images/instagrampink.png");
+       background-image: url("./images/instalogo2.png");
        background-repeat: no-repeat;
      }
       }
@@ -203,7 +242,7 @@
           right: 30px;
           border: none;
           outline: none;
-          background-color: #Bf1d28;
+          background-color: rgba(205,153,103,0.8);
           color: white;
           cursor: pointer;
           padding: 15px;
@@ -212,7 +251,7 @@
       }
 
       #top:hover {
-          background-color: #EFA3C3;
+          background-color: rgba(205,153,103,1);
       }
       @media (max-width:600px){
         #top {position: absolute;
@@ -220,7 +259,7 @@
         right: 8px;
         border: none;
         outline: none;
-        background-color: #Bf1d28;
+        background-color: rgba(205,153,103,0.8);
         color: white;
         cursor: pointer;
         padding: 8px;
@@ -241,11 +280,33 @@
             padding: 0;
           }
         }
+        @media (max-width 800px){
+          p {
+            padding: 30px 100px 0 100px;
+            font-size: 18px;
+          }
+
+        }
+        @media (max-width 500px){
+          p {
+            padding: 30px 30px 0 30px;
+            font-size: 18px;
+          }
+
+        }
       </style>
     </head>
     <body>
       <header id="fixedhd">
       <h1>About</h1>
+      <ul class="navabout">
+      <li><a href="./newabout.html#project">Cup of Silver Ginger</a>
+      </li>
+      <li><a href="./newabout.html#team">Team</a>
+      </li>
+      <li><a href="./newabout.html#contact">Contact</a>
+      </li>
+      </ul>
       <button class="hamburger">&#9776;</button>
       <button class="cross">&#735;</button>
     </header>
@@ -254,17 +315,26 @@
         <a href="./landingpage.html"><li>Home</li></a>
         <a href="./index.html"><li>Moods</li></a>
         <a href="./history.html"><li>History</li></a>
-        <a href="./aboutcontact.html"><li>About</li></a>
-        <a href="./aboutcontact.html#contact"><li>Contact</li></a>
+        <a href="./newabout.html"><li>About</li></a>
+        <a href="./newabout.html#contact"><li>Contact</li></a>
       </ul>
     </div>
-      <div class="about">
+      <a name="project"><div class="about"></a>
       <div class="project">
-        <h2>Cup of Silver Ginger</h2>
-        <p>Info about the website
+        <img class="logo" src="./images/logo.svg">
+        <p>Cup of Silver Ginger is a hub for floral artistry: we support and promote independent London florists. We curate artisanal bouquets and group them according to a range of moods: Festive, Pure, Vintage, Languid, Romantic, Heartfelt, Abstract and Wild.
+<br>
+<br>
+Florists are at the heart of an artistic tradition which values nature's beauty. We have hand-selected a number of local boutiques to showcase their works, and because we feel that they best align with our ethos. We place beauty, authenticity and service at the centre of what we do.
+<br>
+<br>
+Click on the bouquet that best suits your mood and you will be taken to the florist's page.
+Enjoy browsing some of London's finest floral artists.
         </p>
-        </div>
+        <a name="team"></div></a>
         <div class="team">
+        <br>
+        <br>
           <h2>The team</h2>
           <p>Small text about the project and us</p>
           <div class="row">
@@ -273,9 +343,6 @@
             <div class="column">Zana</div>
             <div class="column">Marina</div>
           </div>
-        </div>
-        <div class="row Okeeffe">
-        <img src="./images/Okeeffe.png" style="width:100% ; margin:0px auto;">
         </div>
         </div>
         <a name="contact"><div class="contact"></a>
@@ -289,8 +356,10 @@
                 <br>
                 <input type="submit" value="Submit">
               </form>
-            </div>
-          <p>Find us on social media</p>
+              <br>
+              <br>
+              <br>
+          <h6>Find us on social media</h6>
             <ul id="index" class="footbar">
             <li class="fbicon">
               <a href="https://www.facebook.com/codefirstgirls/"></a>
@@ -307,5 +376,6 @@
             <div>
               <button onclick="topFunction()" id="top" title="Back to top">Back to top</button>
             </div>
+          </div>
       </body>
     </html>
