@@ -5,7 +5,7 @@ header{
 }
 h1{
   padding: 5px 0 30px 0;
-  color: #Bf1d28;
+  color: rgba(205,153,103,0.8);
 }
 .hamburger{
 	background:none;
@@ -14,12 +14,12 @@ h1{
   right:10px;
   line-height:45px;
   padding:15px 15px 0px 15px;
-  color:#696969;
+  color:grey;
   border:0;
   font-size:32px;
   cursor:pointer;
   outline:none;
-  z-index:10000000000000;
+  z-index:100;
 }
 .hamburger:hover{
   background:none;
@@ -28,12 +28,12 @@ h1{
   right:10px;
   line-height:45px;
   padding:15px 15px 0px 15px;
-  color:#Bf1d28;
+  color:rgba(205,153,103,0.8);
   border:0;
   font-size:32px;
   cursor:pointer;
   outline:none;
-  z-index:10000000000000;
+  z-index:100;
 }
 .cross{
 	background:none;
@@ -41,16 +41,16 @@ h1{
   top:8px;
   right:10px;
   padding:15px 15px 0px 15px;
-  color:#696969;
+  color:grey;
   border:0;
   font-size:60px;
   line-height:65px;
   cursor:pointer;
   outline:none;
-  z-index:10000000000000;
+  z-index:100;
 }
 .cross:hover{
-  color: #Bf1d28;
+  color: rgba(205,153,103,0.8);
   background:none;
   position:absolute;
   top:8px;
@@ -61,17 +61,18 @@ h1{
   line-height:65px;
   cursor:pointer;
   outline:none;
-  z-index:10000000000000;
+  z-index:100;
 }
 .menu{
   font-size:20px;
   background: rgba(255, 255, 255, 0.2);
-  position:absolute;
+  position:fixed;
   right:10px;
   width: 250px;
   text-align: center;
   font-weight: bold;
-  z-index:1000000000000000000;
+  z-index:100;
+	top: 65px;
   }
 .menu ul{
   margin: 0;
@@ -86,7 +87,7 @@ h1{
   }
 .menu li:hover{
   display: block;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(205,153,103,0.8));
   padding:15px 0 15px 0;
 
   }
@@ -96,7 +97,7 @@ h1{
   }
 .menu a:hover{
   text-decoration:none;
-  color: #Bf1d28;
+  color: rgba(205,153,103,0.8);
   }
 
 @media (max-width: 500px) {
@@ -105,7 +106,7 @@ h1{
   }
   .menu{
     font-size:20px;
-    background: rgba(255, 255, 255, 1);
+    background: rgba(205,153,103,0.8));
     position:absolute;
     width: 100%;
     text-align: center

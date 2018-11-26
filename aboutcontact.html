@@ -2,9 +2,9 @@
 <html>
   <head>
     <title>Silver Ginger</title>
-    <link rel="stylesheet" type="text/css" href="./css/burgermenutrial.css" />
+    <link rel="stylesheet" type="text/css" href="./burgermenutrial.css" />
     <script src="./js/jquery-3.3.1.min.js"></script>
-    <script src="./js/burgermenutrial.js"></script>
+    <script src="./burgermenutrial.js"></script>
     <style>
       header{
         text-align: center;
@@ -15,49 +15,23 @@
       #fixedhd{
         z-index: 0;
       }
-      .menu{
-        position: fixed;
-      }
-      ]
+
+      body {
+          background-image: url("./images/anna.jpeg");
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-position: left 15%;
+        }
+
       h2 {
         font-size: 32px;
       }
-      .about {
-        text-align: center;
-        padding: 20px 0;
-        margin-top:70px;
-      }
-      .project{
-        background-color: #F3DD65;
-        width: 100%;
-        padding: 20px 0;
-        margin: 0;
-        height:400px;
-      }
-      .team {
-        background-color:#EDC33B;
-        width: 100%;
-        padding:20px 0;
-        margin: 0;
-        height: 400px;
-      }
-      .column {
-    float: left;
-    width: 25%;
-    font-size: 22px;
-    padding: 0;
-    margin:0;
-}
-      .contact {
-        right: 0;
+
+    .contact {
         bottom: 50px;
-        left: 0;
         padding-top: 40px;
-        background-color: white;
         text-align: center;
-        color: #Bf1d28;
-        position: relative;
-        z-index: 10000000;
+        color: rgba(205,153,103,0.8);
       }
 
       * {box-sizing: border-box;}
@@ -84,20 +58,20 @@
           }
 
         ::placeholder {
-      color: #Bf1d28;
+      color: rgba(205,153,103,0.8);
       opacity: 1;
   }
 
   :-ms-input-placeholder {
-      color: #Bf1d28;
+      color: rgba(205,153,103,0.8);
   }
 
   ::-ms-input-placeholder {
-      color: #Bf1d28;
+      color: rgba(205,153,103,0.8);
   }
 
       input[type=submit] {
-          background-color: #Bf1d28;
+          background-color: rgba(205,153,103,0.8);
           color: white;
           padding: 12px 20px;
           border: none;
@@ -107,12 +81,11 @@
       }
 
       input[type=submit]:hover {
-          background-color: #EFA3C3;
+          background-color: rgba(205,153,103,0.8);
       }
 
       .container {
           border-radius: 40px;
-          background-color: #f2f2f2;
           padding: 20px;
           width: 50%;
           margin: 10px auto;
@@ -121,7 +94,7 @@
       .footbar li a {
         padding-left: 30px;
         padding-right: 30px;
-        color: #Bf1d28;
+        color: rgba(205,153,103,0.8);
       }
       .lastp{
         text-align: center;
@@ -129,10 +102,10 @@
       }
       .lastp a{
         text-decoration:none;
-        color: #Bf1d28;
+        color: rgba(205,153,103,0.8);
       }
       .lastp a:hover {
-        color: #EFA3C3;
+        color: rgba(205,153,103,0.8);
         text-decoration:none;
       }
       li {
@@ -140,7 +113,7 @@
 
      }
      h4{
-       color: #Bf1d28;
+       color: rgba(205,153,103,0.8);
        font-size: 36px;
      }
      h5{
@@ -176,7 +149,7 @@
      }
       }
       #index {
-        background: rgba(255, 255, 255, 0.5);
+        background: rgba(205,153,103,0.8);
         margin-top: 0;
         padding: 10px;
         text-align: center;
@@ -197,7 +170,7 @@
           right: 30px;
           border: none;
           outline: none;
-          background-color: #Bf1d28;
+          background-color: rgba(205,153,103,0.8);
           color: white;
           cursor: pointer;
           padding: 15px;
@@ -206,11 +179,12 @@
       }
 
       #top:hover {
-          background-color: #EFA3C3;
+          background-color: rgba(205,153,103,0.8);
       }
       @media (max-width: 500px) {
         h1 {
           font-size: 20px;
+          color:rgba(205,153,103,0.8);
         }
         #index li {
           font-size: 16px;
@@ -238,26 +212,6 @@
         <a href="./aboutcontact.html#contact"><li>Contact</li></a>
       </ul>
     </div>
-      <div class="about">
-      <div class="project">
-        <h2>Cup of Silver Ginger</h2>
-        <p>Info about the website
-        </p>
-        </div>
-        <div class="team">
-          <h2>The team</h2>
-          <p>Small text about the project and us</p>
-          <div class="row">
-            <div class="column">Di</div>
-            <div class="column">Antonia</div>
-            <div class="column">Zana</div>
-            <div class="column">Marina</div>
-          </div>
-        </div>
-        <div class="row Okeeffe">
-        <img src="./images/Okeeffe.png" style="width:100% ; margin:0px auto;">
-        </div>
-        </div>
         <a name="contact"><div class="contact"></a>
           <h4>Contact</h4>
           <h5>Contact Form</h5>
