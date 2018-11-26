@@ -27,8 +27,7 @@
       }
       .navabout li{
         display: inline-block;
-        padding-right: 40px;
-        padding-left: 40px;
+        padding: 0 40px;
       }
       .navabout li a {
         text-decoration:none;
@@ -39,6 +38,7 @@
       }
       .logo{
         padding-top: 30px;
+
       }
       body {
         background-color: black;
@@ -54,9 +54,8 @@
         position: fixed;
       }
 
-      p {
-        padding: 30px 250px 0 250px;
-        font-size: 18px;
+      .description{
+        padding: 0 250px 30px 250px;
       }
       .about {
         text-align: center;
@@ -71,7 +70,7 @@
         width: 100%;
         padding: 20px 0;
         margin: 0;
-        height:400px;
+        height:auto;
         z-index: 0;
       }
       .team {
@@ -81,13 +80,6 @@
         margin: 0;
         height: auto;
       }
-      .column {
-    float: left;
-    width: 25%;
-    font-size: 22px;
-    padding: 0;
-    margin:0;
-}
       .contact {
         right: 0;
         left: 0;
@@ -95,10 +87,11 @@
         text-align: center;
         color: #cd9967;
         position: relative;
-        z-index: 10000000;
+        z-index: 1000000000000;
         background-image: url("./images/anna.jpeg");
         background-repeat: no-repeat;
         background-size: 100%;
+        height: auto;
           }
       }
 
@@ -132,10 +125,12 @@
 
   :-ms-input-placeholder {
       color: #cd9967;
+      opacity: 1;
   }
 
   ::-ms-input-placeholder {
       color: #cd9967;
+      opacity: 1;
   }
 
       input[type=submit] {
@@ -159,7 +154,10 @@
           width: 50%;
           margin: 10px auto;
       }
-
+      .container img {
+          width: 100%;
+          height: auto;
+      }
       .footbar li a {
         padding-left: 30px;
         padding-right: 30px;
@@ -267,15 +265,18 @@
         font-size: 10px;
       }
       }
-      @media (max-width: 500px) {
+      @media (max-width:1000px) and (min-width:500px) {
+        .description {
+          padding: 0 40px;
+          font-size: 18px;
+        }
+      }
+      @media (max-width:500px){
         h1 {
           font-size: 20px;
         }
-        .navabout{
-          padding: 0;
-        }
-        .navabout li{
-          padding: 0 8px;
+        header{
+          height: auto;
         }
         #index li {
           font-size: 16px;
@@ -285,20 +286,19 @@
           #index {
             padding: 0;
           }
-        }
-        @media (max-width 800px){
-          .projectdescription {
-            padding: 30px 100px 0 100px;
-            font-size: 18px;
+          .navabout{
+            padding: 0;
           }
-
-        }
-        @media (max-width 500px){
-          .projectdescription {
-            padding: 30px 30px 0 30px;
-            font-size: 18px;
+          .navabout li{
+            padding: 0 8px;
           }
-
+          .logo{
+            padding:0;
+          }
+          .description {
+            padding: 10px;
+            font-size: 14px;
+          }
         }
       </style>
     </head>
@@ -327,8 +327,9 @@
     </div>
       <a name="project"><div class="about"></a>
       <div class="project">
-        <img class="logo" src="./images/logo.svg">
-        <p class="projectdescription">Cup of Silver Ginger is a hub for floral artistry: we support and promote independent London florists. We curate artisanal bouquets and group them according to a range of moods: Festive, Pure, Vintage, Languid, Romantic, Heartfelt, Abstract and Wild.
+        <div class="container">
+        <img class="logo" src="./images/logo.svg"></div>
+        <p class="description">Cup of Silver Ginger is a hub for floral artistry: we support and promote independent London florists. We curate artisanal bouquets and group them according to a range of moods: Festive, Pure, Vintage, Languid, Romantic, Heartfelt, Abstract and Wild.
 <br>
 <br>
 Florists are at the heart of an artistic tradition which values nature's beauty. We have hand-selected a number of local boutiques to showcase their works, and because we feel that they best align with our ethos. We place beauty, authenticity and service at the centre of what we do.
@@ -342,10 +343,10 @@ Enjoy browsing some of London's finest floral artists.
         <br>
         <br>
           <h2>The team</h2>
-          <p>We are a group of students from the University of Oxford. This website has been designed and created as part of our final project for Code First: Girls, a programme which aims to encourage women and non-binary students to get involved in the tech industries. We hope you enjoy our selection of some of our favourite independent florists based in London.</p>
+          <p class="description">We are a group of students from the University of Oxford. This website has been designed and created as part of our final project for Code First: Girls, a programme which aims to encourage women and non-binary students to get involved in the tech industries. We hope you enjoy our selection of some of our favourite independent florists based in London.</p>
 <br>
 <h2>Our name</h2>
-<p>This website marries our interest in flowers and art. It seems only fitting that we have used the name of a Georgia O'Keeffe painting as our inspiration. O'Keeffe's painting from 1939 intimately explores the interior petals of a white and green flower. Although the work is not one of her best known pieces, we were struck by its unique and beautiful name.</p>
+<p class="description">This website marries our interest in flowers and art. It seems only fitting that we have used the name of a Georgia O'Keeffe painting as our inspiration. O'Keeffe's painting from 1939 intimately explores the interior petals of a white and green flower. Although the work is not one of her best known pieces, we were struck by its unique and beautiful name.</p>
       <br>
         </div>
         </div>
@@ -375,8 +376,8 @@ Enjoy browsing some of London's finest floral artists.
               <a href=https://www.instagram.com/codefirstgirls/></a>
             </li>
             </ul>
-            <p class="lastp"><a href="https://icons8.com">Icon pack by Icons8</a>
-            </p>
+            <span class="lastp"><a href="https://icons8.com">Icon pack by Icons8</a>
+            </span>
             <div>
               <button onclick="topFunction()" id="top" title="Back to top">Back to top</button>
             </div>
