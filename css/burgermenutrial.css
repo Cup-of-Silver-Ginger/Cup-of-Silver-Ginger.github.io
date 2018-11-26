@@ -70,7 +70,7 @@ h1{
   width: 250px;
   text-align: center;
   font-weight: bold;
-  z-index:100;
+  z-index:100000000000000000000000000000000000000;
 	top: 65px;
 	font-family: helvetica;
   }
@@ -110,7 +110,7 @@ h1{
   }
   .menu{
     font-size:20px;
-    background-color: #aca8a5);
+    background-color: #aca8a5;
 		opacity: 1;
     position:absolute;
     width: 100%;
