@@ -85,13 +85,13 @@ h1{
   display: block;
   padding:15px 0 15px 0;
 	background-color: #ffffff;
-	opacity: 0.5;
+	opacity: 0.6;
 
   }
 .menu li:hover{
   display: block;
   background-color: #ffffff;
-	opacity: 0.8;
+	opacity: 0.9;
   padding:15px 0 15px 0;
 
   }
@@ -101,7 +101,7 @@ h1{
   }
 .menu a:hover{
   text-decoration:none;
-  color: rgba(205,153,103,0.8);
+  color: rgba(205,153,103,1);
   }
 
 @media (max-width: 500px) {
