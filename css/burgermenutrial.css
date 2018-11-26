@@ -110,7 +110,8 @@ h1{
   }
   .menu{
     font-size:20px;
-    background: rgba(205,153,103,0.8));
+    background-color: #aca8a5);
+		opacity: 1;
     position:absolute;
     width: 100%;
     text-align: center
