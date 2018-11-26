@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Silver Ginger</title>
+    <link rel="stylesheet" type="text/css" href="./css/burgermenutrial.css" />
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/burgermenutrial.js"></script>
+    <script>
+     function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+    <style>
+      header{
+        text-align: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      #fixedhd{
+        z-index: 0;
+      }
+      .menu{
+        position: fixed;
+      }
+      ]
+      h2 {
+        font-size: 32px;
+      }
+      .about {
+        text-align: center;
+        padding: 20px 0;
+        margin-top:70px;
+      }
+      .project{
+        background-color: #F3DD65;
+        width: 100%;
+        padding: 20px 0;
+        margin: 0;
+        height:400px;
+      }
+      .team {
+        background-color:#EDC33B;
+        width: 100%;
+        padding:20px 0;
+        margin: 0;
+        height: 400px;
+      }
+      .column {
+    float: left;
+    width: 25%;
+    font-size: 22px;
+    padding: 0;
+    margin:0;
+}
+      .contact {
+        right: 0;
+        bottom: 50px;
+        left: 0;
+        padding-top: 40px;
+        background-color: white;
+        text-align: center;
+        color: #Bf1d28;
+        position: relative;
+        z-index: 10000000;
+      }
+
+      * {box-sizing: border-box;}
+
+      input[type=text], select, textarea {
+          width: 70%;
+          padding: 12px;
+          border: none;
+          border-radius: 10px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+        input[type=email], select, textarea {
+            width: 70%;
+            padding: 12px;
+            border: none;
+            border-radius: 10px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+          }
+
+        ::placeholder {
+      color: #Bf1d28;
+      opacity: 1;
+  }
+
+  :-ms-input-placeholder {
+      color: #Bf1d28;
+  }
+
+  ::-ms-input-placeholder {
+      color: #Bf1d28;
+  }
+
+      input[type=submit] {
+          background-color: #Bf1d28;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 10px;
+          cursor: pointer;
+          margin: 10px auto;
+      }
+
+      input[type=submit]:hover {
+          background-color: #EFA3C3;
+      }
+
+      .container {
+          border-radius: 40px;
+          background-color: #f2f2f2;
+          padding: 20px;
+          width: 50%;
+          margin: 10px auto;
+      }
+
+      .footbar li a {
+        padding-left: 30px;
+        padding-right: 30px;
+        color: #Bf1d28;
+      }
+      .lastp{
+        text-align: center;
+        font-size: 16px;
+      }
+      .lastp a{
+        text-decoration:none;
+        color: #Bf1d28;
+      }
+      .lastp a:hover {
+        color: #EFA3C3;
+        text-decoration:none;
+      }
+      li {
+       line-height: 50px;
+
+     }
+     h4{
+       color: #Bf1d28;
+       font-size: 36px;
+     }
+     h5{
+       font-size: 20px;
+     }
+     p{
+       font-size: 24px;
+     }
+
+     .fbicon {
+       background-image: url("./images/facebooklogored.png");
+       background-repeat: no-repeat;
+     }
+     .fbicon:hover {
+       background-image: url("./images/facebookpink.png");
+       background-repeat: no-repeat;
+     }
+     .twicon {
+     background-image: url("./images/twitterlogored.png");
+     background-repeat: no-repeat;
+     }
+     .twicon:hover {
+       background-image: url("./images/twitterpink.png");
+       background-repeat: no-repeat;
+     }
+     .insticon{
+       background-image: url("./images/instalogored.png");
+       background-repeat: no-repeat;
+     }
+     .insticon:hover{
+       background-image: url("./images/instagrampink.png");
+       background-repeat: no-repeat;
+     }
+      }
+      #index {
+        background: rgba(255, 255, 255, 0.5);
+        margin-top: 0;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+      }
+
+      #index li {
+        display: inline-block;
+        font-size: 22px;
+        padding: 10px;
+        margin: 0 auto;
+      }
+
+      #top{
+          position: absolute;
+          bottom: 20px;
+          right: 30px;
+          border: none;
+          outline: none;
+          background-color: #Bf1d28;
+          color: white;
+          cursor: pointer;
+          padding: 15px;
+          border-radius: 10px;
+          font-size: 12px;
+      }
+
+      #top:hover {
+          background-color: #EFA3C3;
+      }
+      @media (max-width:600px){
+        #top {position: absolute;
+        bottom: 4px;
+        right: 8px;
+        border: none;
+        outline: none;
+        background-color: #Bf1d28;
+        color: white;
+        cursor: pointer;
+        padding: 8px;
+        border-radius: 10px;
+        font-size: 10px;
+      }
+      }
+      @media (max-width: 500px) {
+        h1 {
+          font-size: 20px;
+        }
+        #index li {
+          font-size: 16px;
+          padding: 0 10px 0 10px;
+          text-align: center;
+        }
+          #index {
+            padding: 0;
+          }
+        }
+      </style>
+    </head>
+    <body>
+      <header id="fixedhd">
+      <h1>About</h1>
+      <button class="hamburger">&#9776;</button>
+      <button class="cross">&#735;</button>
+    </header>
+    <div class="menu">
+      <ul>
+        <a href="./landingpage.html"><li>Home</li></a>
+        <a href="./index.html"><li>Moods</li></a>
+        <a href="./history.html"><li>History</li></a>
+        <a href="./aboutcontact.html"><li>About</li></a>
+        <a href="./aboutcontact.html#contact"><li>Contact</li></a>
+      </ul>
+    </div>
+      <div class="about">
+      <div class="project">
+        <h2>Cup of Silver Ginger</h2>
+        <p>Info about the website
+        </p>
+        </div>
+        <div class="team">
+          <h2>The team</h2>
+          <p>Small text about the project and us</p>
+          <div class="row">
+            <div class="column">Di</div>
+            <div class="column">Antonia</div>
+            <div class="column">Zana</div>
+            <div class="column">Marina</div>
+          </div>
+        </div>
+        <div class="row Okeeffe">
+        <img src="./images/Okeeffe.png" style="width:100% ; margin:0px auto;">
+        </div>
+        </div>
+        <a name="contact"><div class="contact"></a>
+          <h4>Contact</h4>
+          <h5>Contact Form</h5>
+            <div class="container">
+              <form action="/action_page.php">
+                <input type="text" id="name" name="name" placeholder="Name">
+                <input type="email" id="email" name="email" placeholder="Email address">
+                <textarea id="subject" name="subject" placeholder="Your message" style="height:100px"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+          <p>Find us on social media</p>
+            <ul id="index" class="footbar">
+            <li class="fbicon">
+              <a href="https://www.facebook.com/codefirstgirls/"></a>
+            </li>
+            <li class="twicon">
+              <a href=https://twitter.com/CodeFirstGirls?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor></a>
+            </li>
+            <li class="insticon">
+              <a href=https://www.instagram.com/codefirstgirls/></a>
+            </li>
+            </ul>
+            <p class="lastp"><a href="https://icons8.com">Icon pack by Icons8</a>
+            </p>
+            <div>
+              <button onclick="topFunction()" id="top" title="Back to top">Back to top</button>
+            </div>
+      </body>
+    </html>
