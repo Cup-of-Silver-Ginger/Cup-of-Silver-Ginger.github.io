@@ -5,21 +5,23 @@
 	 width="310px" height="76px" viewBox="0 0 310 76" enable-background="new 0 0 310 76" xml:space="preserve">
 <g>
 	<g>
-		<defs>
-			<rect id="SVGID_1_" x="-404.305" y="10.79" width="80.945" height="84"/>
-		</defs>
-		<clipPath id="SVGID_2_">
-			<use xlink:href="#SVGID_1_"  overflow="visible"/>
-		</clipPath>
-		<rect x="-404.305" y="10.79" clip-path="url(#SVGID_2_)" fill="#FFFFFF" fill-opacity="0" width="80.945" height="84"/>
+		<g>
+			<defs>
+				<rect id="SVGID_1_" x="-404.305" y="10.79" width="80.945" height="84"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  overflow="visible"/>
+			</clipPath>
+			<rect x="-404.305" y="10.79" clip-path="url(#SVGID_2_)" fill="#FFFFFF" fill-opacity="0" width="80.945" height="84"/>
+		</g>
 	</g>
 </g>
 <g>
-	<text transform="matrix(1 0 0 1 51.4028 34.8203)" fill="#C49A6C" font-family="'Didot'" font-size="16.4215">CUP OF SILVER GINGER</text>
+	<text transform="matrix(1 0 0 1 47.9551 36.8203)" fill="#C49A6C" font-family="'Didot'" font-size="16.4215">CUP OF SILVER GINGER</text>
 	
-		<text transform="matrix(1 0 0 1 51.4028 34.8203)" fill="none" stroke="#C49A6C" stroke-width="0.1" stroke-miterlimit="10" font-family="'Didot'" font-size="16.4215">CUP OF SILVER GINGER</text>
-	<line fill="none" stroke="#A97C50" x1="18.922" y1="29.104" x2="44.292" y2="29.104"/>
-	<line fill="none" stroke="#A97C50" x1="261.766" y1="29.104" x2="287.135" y2="29.104"/>
+		<text transform="matrix(1 0 0 1 47.9551 36.8203)" fill="none" stroke="#C49A6C" stroke-width="0.1" stroke-miterlimit="10" font-family="'Didot'" font-size="16.4215">CUP OF SILVER GINGER</text>
+	<line fill="none" stroke="#A97C50" x1="15.474" y1="31.104" x2="40.844" y2="31.104"/>
+	<line fill="none" stroke="#A97C50" x1="258.318" y1="31.104" x2="283.688" y2="31.104"/>
 </g>
-<text transform="matrix(1 0 0 1 103.1587 64.8203)" fill="#C49A6C" font-family="'Didot'" font-size="14">flower as history</text>
+<text transform="matrix(1 0 0 1 112.6064 52.8203)" fill="#C49A6C" font-family="'Didot'" font-size="10">flower as history</text>
 </svg>
