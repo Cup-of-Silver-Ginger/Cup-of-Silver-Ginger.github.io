@@ -24,19 +24,19 @@
 }
 
 .image1 {
-  background-image: url(".././images/landing1.png");
+  background-image: url("/images/landing1.png");
 }
 
 .image2 {
-  background-image: url(".././images/landing2.png");
+  background-image: url("/images/landing2.png");
 }
 
 .image3 {
-  background-image: url(".././images/landing1.png");
+  background-image: url("/images/landing1.png");
 }
 
 .image4 {
-  background-image: url(".././images/landing3.png");
+  background-image: url("/images/landing3.png");
 }
 
 .anchor {
