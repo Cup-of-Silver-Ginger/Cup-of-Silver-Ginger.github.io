@@ -82,7 +82,7 @@ h2 + p {
 }
 
 .box1 {
-  background-image: url("/images/egyptian.png");
+  background-image: url("/images/Egyptian.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -100,19 +100,19 @@ h2 + p {
 }
 
 .box4 {
-  background-image: url("/images/vangogh.png");
+  background-image: url("/images/Vangogh.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .box5 {
-  background-image: url("/images/okeeffe.png");
+  background-image: url("/images/Okeeffe.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .box6 {
-  background-image: url("/images/pop.png");
+  background-image: url("/images/Pop.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
