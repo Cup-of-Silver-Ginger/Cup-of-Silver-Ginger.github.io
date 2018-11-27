@@ -82,37 +82,37 @@ h2 + p {
 }
 
 .box1 {
-  background-image: url(".././images/egyptian.png");
+  background-image: url("/images/egyptian.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .box2 {
-  background-image: url(".././images/dutchgoldenage.png");
+  background-image: url("/images/dutchgoldenage.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .box3 {
-  background-image: url(".././images/ophelia.png");
+  background-image: url("/images/ophelia.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .box4 {
-  background-image: url(".././images/vangogh.png");
+  background-image: url("/images/vangogh.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .box5 {
-  background-image: url(".././images/okeeffe.png");
+  background-image: url("/images/okeeffe.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .box6 {
-  background-image: url(".././images/pop.png");
+  background-image: url("/images/pop.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
