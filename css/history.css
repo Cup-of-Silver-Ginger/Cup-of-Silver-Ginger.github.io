@@ -1,11 +1,11 @@
 html {
-  font-family: Helvetica, sans-serif;
   text-align: center;
 }
 
 body {
   background-color: rgb(40, 45, 50);
   margin: 80px;
+  font-family: "EB Garamond", serif;
 }
 
 .title {
