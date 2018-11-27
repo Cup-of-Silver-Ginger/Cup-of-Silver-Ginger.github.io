@@ -5,11 +5,13 @@
 	 width="842.373px" height="74.686px" viewBox="0 0 842.373 74.686" enable-background="new 0 0 842.373 74.686"
 	 xml:space="preserve">
 <g>
-	<text transform="matrix(1 0 0 1 310.5376 36.8381)" fill="#C3996C" font-family="'Didot'" font-size="16.4215">CUP OF SILVER GINGER</text>
-	
-		<text transform="matrix(1 0 0 1 310.5376 36.8381)" fill="none" stroke="#C3996C" stroke-width="0.1" stroke-miterlimit="10" font-family="'Didot'" font-size="16.4215">CUP OF SILVER GINGER</text>
-	<line fill="none" stroke="#A97D51" x1="278.057" y1="31.122" x2="303.427" y2="31.122"/>
-	<line fill="none" stroke="#A97D51" x1="520.9" y1="31.122" x2="546.27" y2="31.122"/>
+	<g>
+		<text transform="matrix(1 0 0 1 310.5376 36.8381)" fill="#C3996C" font-family="'Didot'" font-size="16.4215">CUP OF SILVER GINGER</text>
+		
+			<text transform="matrix(1 0 0 1 310.5376 36.8381)" fill="none" stroke="#C3996C" stroke-width="0.1" stroke-miterlimit="10" font-family="'Didot'" font-size="16.4215">CUP OF SILVER GINGER</text>
+		<line fill="none" stroke="#A97D51" x1="278.057" y1="31.122" x2="303.427" y2="31.122"/>
+		<line fill="none" stroke="#A97D51" x1="520.9" y1="31.122" x2="546.27" y2="31.122"/>
+	</g>
+	<text transform="matrix(1 0 0 1 293.7422 52.7942)" fill="#C3996C" font-family="'Didot'" font-size="10"> curated bouquets from London’s independent florists</text>
 </g>
-<text transform="matrix(1 0 0 1 293.7422 52.7942)" fill="#C3996C" font-family="'Didot'" font-size="10"> curated bouquets from London’s independent florists</text>
 </svg>
