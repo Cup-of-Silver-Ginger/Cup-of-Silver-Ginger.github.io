@@ -69,10 +69,14 @@ nav li {
   float: left;
   width: 80px;
   text-align: center;
+  display: inline-block;
 }
 
 nav li a {
   color: rgb(201, 153, 103);
+  font-family: "EB Garamond", serif;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 nav li a:hover {
