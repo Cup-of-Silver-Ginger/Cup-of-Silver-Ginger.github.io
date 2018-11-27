@@ -75,7 +75,7 @@ body {
   text-align: center;
   color: #cd9967;
   position: relative;
-  z-index: 1000000000000;
+  z-index: 1;
   background-image: url(".././images/anna.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -297,4 +297,3 @@ h5{
       font-size: 14px;
     }
   }
-  
