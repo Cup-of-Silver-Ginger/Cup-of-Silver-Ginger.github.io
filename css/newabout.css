@@ -99,6 +99,7 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    font-family: 'EB Garamond', serif;
   }
   input[type=email], select, textarea {
       width: 70%;
@@ -110,6 +111,7 @@ input[type=text], select, textarea {
       margin-top: 6px;
       margin-bottom: 16px;
       resize: vertical;
+      font-family: 'EB Garamond', serif;
     }
 
   ::placeholder {
