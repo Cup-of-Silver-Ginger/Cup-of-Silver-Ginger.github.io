@@ -1,42 +1,42 @@
 html {
-font-family:Helvetica, sans-serif;
-text-align: center;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
 }
 
 body {
   background-color: rgb(40, 45, 50);
-  margin:60px;
+  margin: 60px;
 }
 
-  .all_content {
-    padding-top: 50px;
-  }
-  .container {
-    background:rgba(205,153,103,0.8);
-    margin-top: 0;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-    position: fixed;
-  }
-  .container li {
-    display: inline-block;
-    font-size: 22px;
-    padding: 0 10px 0 10px;
-    margin: 0 auto;
-  }
-  .container a {
-    color: black;
-  }
-  .container a:hover {
-    color: rgba(205,153,103,0.8);
-    font-weight: bold;
-  }
-  .nopadding {
-    padding: 0 !important;
-    margin: 0 !important;
-     line-height: 0;
-  }
+.all_content {
+  padding-top: 50px;
+}
+.container {
+  background: rgba(205, 153, 103, 0.8);
+  margin-top: 0;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+}
+.container li {
+  display: inline-block;
+  font-size: 22px;
+  padding: 0 10px 0 10px;
+  margin: 0 auto;
+}
+.container a {
+  color: black;
+}
+.container a:hover {
+  color: rgba(205, 153, 103, 0.8);
+  font-weight: bold;
+}
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 0;
+}
 
 .title1 {
   height: 150px;
@@ -44,50 +44,57 @@ body {
 }
 
 .container-fluid {
-width: cover;
-overflow: hidden;
+  width: cover;
+  overflow: hidden;
 }
 
 .flower-mood img {
   background-size: 100%;
-  position:relative;
+  position: relative;
 }
 
-.flower-mood img:hover{
--webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-filter: grayscale(100%); /* FF 35+ */
+.flower-mood img:hover {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
 }
-
 
 .flower-mood {
-position:relative;
+  position: relative;
 }
 .flower-mood .mood {
-opacity: 0;
-position: absolute;
-top: auto;
-left: 0; width: 100%; text-align: center
+  opacity: 0;
+  position: absolute;
+  top: auto;
+  left: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .flower-mood:hover .mood {
-opacity: 1;
-font-weight: bold;
-color: rgb(205,153,103);
-font-size: 30px;
-z-index: 1;
-position: absolute;
-top: 50%;
-left: 0; width: 100%; text-align: center
+  opacity: 1;
+  font-weight: bold;
+  color: rgb(205, 153, 103);
+  font-size: 30px;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  text-align: center;
 }
-  @media (max-width: 500px) {
-    h1 {
-      font-size: 20px;
-    }
-    .container li {
-      font-size: 16px;
-      padding: 0 10px 0 10px;
-    }
-    .container {
-      padding: 0;
-    }
+@media (max-width: 500px) {
+  h1 {
+    font-size: 20px;
   }
+  .container li {
+    font-size: 16px;
+    padding: 0 10px 0 10px;
+  }
+  .container {
+    padding: 0;
+  }
+}
+.container-fluid img {
+  width: 100%;
+  height: auto;
+}
